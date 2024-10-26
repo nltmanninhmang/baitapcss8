@@ -4,22 +4,32 @@
 <head>
   <title>CSS Positioning Exercise</title>
   <style>
-    /* Write your code here */
     *{
-      padding: 200px;
+      box-sizing: border-box;
     }
-    .blue-box{
-      background-color: #0000FF;
-      border: 15px solid #FFA500;
+    body {
+      margin: 0; 
+      padding: 0;
+    }
+
+    .blue-box {
       width: 500px;
       height: 300px;
+      background-color: blue; 
+      border: 25px solid orange; 
+      position: relative; 
+      margin: 200px; 
     }
-    .red-circle{
-      background-color: #FF0000;
-      border: 25px solid #FFFF00;
-      border-radius: 50%;
-      margin-top: 150px;
-      margin-left: 250px;
+
+    .red-circle {
+      width: 200px;
+      height: 200px;
+      background-color: red; 
+      border: 15px solid yellow; 
+      border-radius: 50%; 
+      position: absolute; 
+      top: 150px; 
+      left: 250px; 
     }
   </style>
 </head>
